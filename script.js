@@ -259,7 +259,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I love you so much , more than",
+          "I love you Bang , more than",
           "all the time and space in the universe can contain",
         ],
         canvas.width / 2,
@@ -269,7 +269,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "I love you so much , more than all the time and space in the universe can contain",
+        "I love you Bang , more than all the time and space in the universe can contain ",
         canvas.width / 2,
         canvas.height / 2
       );
